@@ -1,0 +1,146 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #000;
+  color: #fff;
+}
+
+.logo {
+  height: 30px;
+}
+.navbar__brand .logo {
+  margin-right: 5px; /* Adds a 5px gap between the logo and the text */
+}
+
+.navbar__brand {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.navbar__brand span:first-child {
+  margin-right: 5px;
+}
+
+.navbar__request-button {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 8px 16px;
+  margin-right: 15%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar__request-button:hover {
+  background-color: #666;
+}
+
+.help-center {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.help-center__header {
+  background-color: #e5e7ef;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.help-center__header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.help-center__search-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.help-center__search-bar input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+  border-right: none;
+  background-color: white;
+}
+.help-center__search-bar input:focus {
+  outline: none;
+  border-color: none; /* Optional: Reset border color to its default */
+}
+
+.help-center__search-bar button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-left: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  background-color: white;
+}
+
+.help-center__cards {
+  display: grid;
+  max-width: 1350px;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.help-center__card {
+  background-color: #f7f7f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.help-center__card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.help-center__footer {
+  background-color: #333;
+  color: white;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.footer__section h4 {
+  margin-bottom: 10px;
+}
+
+.footer__section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__section ul li {
+  margin-bottom: 8px;
+}
+
+.footer__contact h4,
+.footer__contact p {
+  margin: 0;
+}
+
+.footer__copyright {
+  grid-column: span 5;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
