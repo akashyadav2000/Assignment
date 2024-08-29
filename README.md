@@ -3,11 +3,13 @@
 front end
 
 npm i
+
 npm run dev
 
 backend
 
 node seedCards.js
+
 npm run dev
 
 {
