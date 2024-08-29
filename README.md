@@ -28,3 +28,29 @@ npm run dev
 "nodemon": "^3.1.4"
 }
 }
+
+
+
+
+├── backend
+|     ├── .env
+|     ├── models
+|     |     ├── Card.js
+|     ├── routes
+|     |     ├── cardRoutes.js
+|     ├── seedCards.js
+|     ├── server.js
+
+
+
+├── frontend
+
+|     ├── index.html
+|     ├── public
+|     |     ├── logo.png
+|     ├── src
+|     |     ├── App.jsx
+|     |     ├── Component
+|     |     |     ├── Componets.jsx
+|     |     |     ├── style.css
+|     |     ├── main.jsx
